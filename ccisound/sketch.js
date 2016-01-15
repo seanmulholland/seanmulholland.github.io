@@ -25,7 +25,7 @@ slider.position(20,20);
 function draw() {
 
 var level = amplitude.getLevel();
-var radius = map(level, 0, 0.5, 200, 300);
+var radius = map(level, 0, 0.5, 200, 250);
 var tubeRadius = map(level, 0, 0.17, 1, 30);
 var rotate = map(slider.value(), 0, 100, 0, 0.015);
 
@@ -40,8 +40,4 @@ var rotate = map(slider.value(), 0, 100, 0, 0.015);
 
 
 
-}
-
-function mouseClicked(){
-  sound.stop();
 }
