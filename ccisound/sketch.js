@@ -6,7 +6,7 @@
 
 
 function preload(){
-  sound = loadSound('dungen.mp3');
+  sound = loadSound('tuamie.mp3');
 }
 
 function setup() {
